@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App" style={appStyle}>
         
-        <Route exact path="/" render={props => (
+        <Route exact path="/personal-portfolio" render={props => (
           <React.Fragment>
             <Home/>
           </React.Fragment>
