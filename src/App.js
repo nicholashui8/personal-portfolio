@@ -11,7 +11,6 @@ function App() {
   return (
     <Router basename={window.location.pathname || ''}>
       <div className="App" style={appStyle}>
-        
         <Route exact path="/" render={props => (
           <React.Fragment>
             <Home/>
