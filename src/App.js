@@ -1,26 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Resume from './components/Resume';
+import Projects from './components/Projects'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App" style={appStyle}>
+        
+        <Route exact path="/" render={props => (
+          <React.Fragment>
+            <Home/>
+          </React.Fragment>
+        )}/>
+        <Route exact path="/about" render={props => (
+          <React.Fragment>
+            <Header/>
+            <About/>
+          </React.Fragment>
+        )}/>
+        <Route exact path="/resume" render={props => (
+          <React.Fragment>
+            <Header/>
+            <Resume/>
+          </React.Fragment>
+        )}/>
+        <Route exact path="/projects" render={props => (
+          <React.Fragment>
+            <Header/>
+            <Projects/>
+          </React.Fragment>
+        )}/>
+      </div>
+    </Router>
+    
   );
 }
-
+const appStyle = {
+  margin: '0',
+  padding: '0',
+}
 export default App;

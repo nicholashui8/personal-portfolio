@@ -1,0 +1,71 @@
+.headerStyle{
+    margin: 0;
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    color: black;
+}
+.logo{
+    float: left;
+    text-decoration: none;
+    font-size: 35px;
+    height: 75px;
+    width: 75px;
+    margin-top: 11px;
+}
+.logo:hover {
+    background-color: lightgrey;
+}
+.logo p{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.logoLetters{
+    color: black;
+    text-decoration: none;
+}
+.text-box{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.logoLetters:hover{
+    color: #FF6961;
+}
+.groupOfLinks{
+    float: right;
+    background-color: white;
+    margin-top: 35px;
+    margin-right: 100px;
+    
+}
+.navStyle{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    background-color: white;
+    display: inline;
+}
+
+.eachLinkHeader{
+    display: inline;
+    padding: 30px;
+    color: black;
+    text-decoration:none;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 850px) {
+    .text-box{
+        margin-left: 17px;
+    }
+    .groupOfLinks{
+      margin-right: 10px;
+    }
+    .navStyle{
+        width: 10%;
+    }
+    .eachLinkHeader{
+        padding: 10px;
+    }
+  }
