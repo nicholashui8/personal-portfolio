@@ -9,10 +9,10 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <div className="App" style={appStyle}>
         
-        <Route exact path="/personal-portfolio" render={props => (
+        <Route exact path="/" render={props => (
           <React.Fragment>
             <Home/>
           </React.Fragment>
