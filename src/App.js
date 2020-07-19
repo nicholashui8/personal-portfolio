@@ -4,12 +4,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects'
-import { HashRouter as Router, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App" style={appStyle}>
         <Route exact path="/" render={props => (
           <React.Fragment>
