@@ -91,15 +91,15 @@
         background-color: white;
     }
     .text-box{
-        margin-left: 5px;
+        margin-left: 2px;
     }
     .groupOfLinks{
-      margin-right: 3px;
+      margin-right: 2px;
     }
     .navStyle{
-        width: 6%;
+        width: 4%;
     }
     .eachLinkHeader{
-        padding: 6px;
+        padding: 4px;
     }
   }
