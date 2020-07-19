@@ -4,6 +4,7 @@ class About extends Component {
         return (
             <div style={paragraphStyle}>
                 <h1>I'm currently a third year student studying computer science at San Jose State University</h1>
+                <h1>In my spare time I like drinking boba and playing badminton!</h1>
             </div>
         )
     }

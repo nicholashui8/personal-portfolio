@@ -62,8 +62,12 @@ class Projects extends Component {
                         <br/>
                         <p1 className='projectDescription'>React.js</p1>
                         <br/>
-                        <Link class='projectLinks' to="/">
+                        <Link class='projectLinks' to="/" onClick={ () => window.open('https://nicholashui8.github.io/personal-portfolio/')}>
                             nicholashui.me
+                        </Link>
+                        <br/>
+                        <Link class='projectLinks' to="/" onClick={ () => window.open('https://github.com/nicholashui8/personal-portfolio')}>
+                            https://github.com/nicholashui8/personal-portfolio
                         </Link>
                     </div>
                 </div>
