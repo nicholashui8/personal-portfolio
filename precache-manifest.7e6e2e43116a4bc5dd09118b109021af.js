@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2fb7f1de80b7473456d140b10f9e54a",
+    "revision": "4f3d6bb3aeeff7b73650133d0b20b746",
     "url": "/personal-portfolio/index.html"
   },
   {
-    "revision": "d66e0d49b4ce154f27f4",
-    "url": "/personal-portfolio/static/css/main.5dae6a23.chunk.css"
+    "revision": "09fe72b8c682738d0d9e",
+    "url": "/personal-portfolio/static/css/main.c40207f8.chunk.css"
   },
   {
-    "revision": "f01b329977af983a6eae",
-    "url": "/personal-portfolio/static/js/2.c5a8cf86.chunk.js"
+    "revision": "dd5518a086c2fc4f3e95",
+    "url": "/personal-portfolio/static/js/2.a93e803e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/personal-portfolio/static/js/2.c5a8cf86.chunk.js.LICENSE.txt"
+    "url": "/personal-portfolio/static/js/2.a93e803e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d66e0d49b4ce154f27f4",
-    "url": "/personal-portfolio/static/js/main.49477205.chunk.js"
+    "revision": "09fe72b8c682738d0d9e",
+    "url": "/personal-portfolio/static/js/main.09d90da2.chunk.js"
   },
   {
     "revision": "1fd8320ed472344e7a3b",
     "url": "/personal-portfolio/static/js/runtime-main.41dc66a3.js"
+  },
+  {
+    "revision": "43d60c726a9f3c6191d0fcc2b359e15e",
+    "url": "/personal-portfolio/static/media/Nicholas-Hui-Resume.43d60c72.pdf"
   },
   {
     "revision": "f3c5b7fa90c9a4b1118fb4a58010b2f9",
