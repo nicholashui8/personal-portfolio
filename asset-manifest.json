@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.19f468fa.chunk.css",
-    "main.js": "/static/js/main.cc20f235.chunk.js",
-    "main.js.map": "/static/js/main.cc20f235.chunk.js.map",
+    "main.css": "/static/css/main.f3b2a5d7.chunk.css",
+    "main.js": "/static/js/main.f82849c3.chunk.js",
+    "main.js.map": "/static/js/main.f82849c3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ccef853a.js",
     "runtime-main.js.map": "/static/js/runtime-main.ccef853a.js.map",
-    "static/js/2.a93e803e.chunk.js": "/static/js/2.a93e803e.chunk.js",
-    "static/js/2.a93e803e.chunk.js.map": "/static/js/2.a93e803e.chunk.js.map",
+    "static/js/2.b4c9c6bf.chunk.js": "/static/js/2.b4c9c6bf.chunk.js",
+    "static/js/2.b4c9c6bf.chunk.js.map": "/static/js/2.b4c9c6bf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f0f5db6267d9e2449b5d39f8a254d8c8.js": "/precache-manifest.f0f5db6267d9e2449b5d39f8a254d8c8.js",
+    "precache-manifest.cfcacb25b20c0062986be88110d570c8.js": "/precache-manifest.cfcacb25b20c0062986be88110d570c8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.19f468fa.chunk.css.map": "/static/css/main.19f468fa.chunk.css.map",
-    "static/js/2.a93e803e.chunk.js.LICENSE.txt": "/static/js/2.a93e803e.chunk.js.LICENSE.txt",
-    "static/media/Nicholas-Hui-Resume.pdf": "/static/media/Nicholas-Hui-Resume.43d60c72.pdf",
+    "static/css/main.f3b2a5d7.chunk.css.map": "/static/css/main.f3b2a5d7.chunk.css.map",
+    "static/js/2.b4c9c6bf.chunk.js.LICENSE.txt": "/static/js/2.b4c9c6bf.chunk.js.LICENSE.txt",
+    "static/media/Nicholas-Hui-Resume.pdf": "/static/media/Nicholas-Hui-Resume.9d8d02cc.pdf",
     "static/media/food-finder-preview.png": "/static/media/food-finder-preview.f3c5b7fa.png",
     "static/media/portfolio-preview.png": "/static/media/portfolio-preview.8b76ef35.png",
-    "static/media/youtube-synchronizer-preview.png": "/static/media/youtube-synchronizer-preview.86479483.png"
+    "static/media/youtube-sync-preview.gif": "/static/media/youtube-sync-preview.d74f18ce.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.ccef853a.js",
-    "static/js/2.a93e803e.chunk.js",
-    "static/css/main.19f468fa.chunk.css",
-    "static/js/main.cc20f235.chunk.js"
+    "static/js/2.b4c9c6bf.chunk.js",
+    "static/css/main.f3b2a5d7.chunk.css",
+    "static/js/main.f82849c3.chunk.js"
   ]
 }
