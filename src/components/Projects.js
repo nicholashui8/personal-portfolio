@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-import youtubeSynchronizerPreview from '../screenshots/youtube-synchronizer-preview.png';
+import youtubeSynchronizerPreview from '../screenshots/youtube-sync-preview.gif';
 import portfolioPreview from '../screenshots/portfolio-preview.png';
 import foodFinderPreview from '../screenshots/food-finder-preview.png';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import '../App.css'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faNodeJs as Nodejs } from '@fortawesome/free-brands-svg-icons'
+import { faReact as react } from '@fortawesome/free-brands-svg-icons'
 
 class Projects extends Component {
     render() {
@@ -20,7 +25,7 @@ class Projects extends Component {
                         <br/>
                         <p1 className='projectDescription'>This web application allows multiple friends to stream Youtube videos together</p1>
                         <br/>
-                        <p1 className='projectDescription'>Node.js     Express</p1>
+                        <p1 className='projectDescription'>Node.js <FontAwesomeIcon style={nodejsColor} className='iconStyle' icon={Nodejs}/> + Express</p1>
                         <br/>
                         <Link class='projectLinks' to="/projects" onClick={ () => window.open('https://youtube-streaming.herokuapp.com/')} >
                             https://youtube-streaming.herokuapp.com/
@@ -42,7 +47,7 @@ class Projects extends Component {
                         <br></br>
                         <p1 className='projectDescription'>This web application allows the user to search for nearby food</p1>
                         <br/>
-                        <p1 className='projectDescription'>React.js     Node.js     Express</p1>
+                        <p1 className='projectDescription'>React.js <FontAwesomeIcon style={reactColor} className='iconStyle' icon={react}/> + Node.js <FontAwesomeIcon  style={nodejsColor}className='iconStyle' icon={Nodejs}/> + Express</p1>
                         <br/>
                         <Link class='projectLinks' to="/projects" onClick={ () => window.open('https://github.com/nicholashui8/food-finder')} >
                             https://github.com/nicholashui8/food-finder
@@ -60,7 +65,7 @@ class Projects extends Component {
                         <br/>
                         <p1 className='projectDescription'>This is the website you're currently on!</p1>
                         <br/>
-                        <p1 className='projectDescription'>React.js</p1>
+                        <p1 className='projectDescription'>React.js  <FontAwesomeIcon style={reactColor} className='iconStyle' icon={react}/></p1>
                         <br/>
                         <Link class='projectLinks' to="/" onClick={ () => window.open('https://nicholashui8.github.io/personal-portfolio/')}>
                             nicholashui.me
@@ -74,5 +79,11 @@ class Projects extends Component {
             </div>
         )
     }
+}
+const nodejsColor = {
+    color: 'green',
+}
+const reactColor = {
+    color: '#61DBFB',
 }
 export default Projects
