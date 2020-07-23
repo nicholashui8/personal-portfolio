@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3b2a5d7.chunk.css",
-    "main.js": "/static/js/main.f82849c3.chunk.js",
-    "main.js.map": "/static/js/main.f82849c3.chunk.js.map",
+    "main.css": "/static/css/main.78502d9c.chunk.css",
+    "main.js": "/static/js/main.0200162f.chunk.js",
+    "main.js.map": "/static/js/main.0200162f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ccef853a.js",
     "runtime-main.js.map": "/static/js/runtime-main.ccef853a.js.map",
     "static/js/2.b4c9c6bf.chunk.js": "/static/js/2.b4c9c6bf.chunk.js",
     "static/js/2.b4c9c6bf.chunk.js.map": "/static/js/2.b4c9c6bf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cfcacb25b20c0062986be88110d570c8.js": "/precache-manifest.cfcacb25b20c0062986be88110d570c8.js",
+    "precache-manifest.7a7125693c7d8012c15373bba07d15ea.js": "/precache-manifest.7a7125693c7d8012c15373bba07d15ea.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f3b2a5d7.chunk.css.map": "/static/css/main.f3b2a5d7.chunk.css.map",
+    "static/css/main.78502d9c.chunk.css.map": "/static/css/main.78502d9c.chunk.css.map",
     "static/js/2.b4c9c6bf.chunk.js.LICENSE.txt": "/static/js/2.b4c9c6bf.chunk.js.LICENSE.txt",
     "static/media/Nicholas-Hui-Resume.pdf": "/static/media/Nicholas-Hui-Resume.9d8d02cc.pdf",
     "static/media/food-finder-preview.png": "/static/media/food-finder-preview.f3c5b7fa.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ccef853a.js",
     "static/js/2.b4c9c6bf.chunk.js",
-    "static/css/main.f3b2a5d7.chunk.css",
-    "static/js/main.f82849c3.chunk.js"
+    "static/css/main.78502d9c.chunk.css",
+    "static/js/main.0200162f.chunk.js"
   ]
 }
