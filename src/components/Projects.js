@@ -21,7 +21,7 @@ class Projects extends Component {
                         </Link>
                     </div>
                     <div className='textContainer'>
-                        <p1 className='projectDescription'>Youtube Synchronizer</p1>
+                        <p1  style={projectTitle} className='projectDescription'>Youtube Synchronizer</p1>
                         <br/>
                         <p1 className='projectDescription'>This web application allows multiple friends to stream Youtube videos together</p1>
                         <br/>
@@ -43,7 +43,7 @@ class Projects extends Component {
                         </Link>
                     </div>
                     <div className='textContainer'>
-                        <p1 className='projectDescription'>Food Finder</p1>
+                        <p1 style={projectTitle} className='projectDescription'>Food Finder</p1>
                         <br></br>
                         <p1 className='projectDescription'>This web application allows the user to search for nearby food</p1>
                         <br/>
@@ -61,7 +61,7 @@ class Projects extends Component {
                         </Link>
                     </div>
                     <div className='textContainer'>
-                        <p1 className='projectDescription'>Personal Portfolio</p1>
+                        <p1 style={projectTitle}  className='projectDescription'>Personal Portfolio</p1>
                         <br/>
                         <p1 className='projectDescription'>This is the website you're currently on!</p1>
                         <br/>
@@ -85,5 +85,12 @@ const nodejsColor = {
 }
 const reactColor = {
     color: '#61DBFB',
+}
+const projectTitle = {
+    backgrounColor: 'red',
+    color: '#FF6961',
+    fontSize: '27px',
+    letterSpacing: '1.75px',
+
 }
 export default Projects
