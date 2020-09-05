@@ -6,9 +6,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import '../App.css'
 import {Grid} from '@material-ui/core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { faNodeJs as Nodejs } from '@fortawesome/free-brands-svg-icons'
 import { faReact as react } from '@fortawesome/free-brands-svg-icons'
+
 const container = {
     height: '1000px',
     width: '100%',
