@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c73256160bfa1b1461ac26e6e3eb025d",
+    "revision": "0a6b87bfd0a0b9312c06823ddaae3db9",
     "url": "/index.html"
   },
   {
-    "revision": "450ec88e5ac67cdb1781",
+    "revision": "99edf52835482794cd36",
     "url": "/static/css/main.5f6c0bb8.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.04368f60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "450ec88e5ac67cdb1781",
-    "url": "/static/js/main.532e4698.chunk.js"
+    "revision": "99edf52835482794cd36",
+    "url": "/static/js/main.1b2b19b6.chunk.js"
   },
   {
     "revision": "4d030bf2aa0c41b6f6cf",
     "url": "/static/js/runtime-main.ccef853a.js"
   },
   {
-    "revision": "d099a01eb0aecea29915ac5bba519b68",
-    "url": "/static/media/Nicholas-Hui-Resume.d099a01e.pdf"
+    "revision": "07b75beaaedc3b8cc5f0e51c9392007a",
+    "url": "/static/media/Nicholas-Hui-Resume.07b75bea.pdf"
   },
   {
     "revision": "f3c5b7fa90c9a4b1118fb4a58010b2f9",
