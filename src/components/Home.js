@@ -64,9 +64,9 @@ function Home(){
                         </Link>
                     </li>
                     <li className='eachLink'>
-                        <Link className='link' to="" onClick={ () => window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nicholas.hui@sjsu.edu")}>
+                        <Link className='link' to="" onClick={ () => window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nicholashui8@gmail.com")}>
                             <FontAwesomeIcon className='iconStyle' icon={Email}/>
-                            nicholas.hui@sjsu.edu
+                            nicholashui8@gmail.com
                         </Link>
                     </li>
                 </ul>
