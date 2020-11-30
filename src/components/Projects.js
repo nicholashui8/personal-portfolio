@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import youtubeSynchronizerPreview from '../screenshots/youtube-sync-preview.gif';
 import portfolioPreview from '../screenshots/portfolio-preview.png';
 import foodFinderPreview from '../screenshots/food-finder-preview.png';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Route, Link } from "react-router-dom";
 import '../App.css'
-import {Grid} from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faNodeJs as Nodejs } from '@fortawesome/free-brands-svg-icons'
 import { faReact as react } from '@fortawesome/free-brands-svg-icons'
@@ -42,28 +42,28 @@ export default function Projects() {
             <Grid container spacing={10}>
                 <Grid item xs={12}>
                     <div className='imagePreview'>
-                        <Link class='projectLinks' to="/projects" onClick={ () => window.open('https://github.com/nicholashui8/youtube_livestream')}>
-                            <img className='image-style' src={youtubeSynchronizerPreview} alt="Logo"/>
+                        <Link class='projectLinks' to="/projects" onClick={() => window.open('https://github.com/nicholashui8/youtube_livestream')}>
+                            <img className='image-style' src={youtubeSynchronizerPreview} alt="Logo" />
                         </Link>
                     </div>
                 </Grid>
                 <Grid container spacing={1} style={gridStyle}>
                     <Grid item xs={12}>
-                        <p1  style={projectTitle} className='projectDescription'>Youtube Synchronizer</p1>
+                        <p1 style={projectTitle} className='projectDescription'>Youtube Synchronizer</p1>
                     </Grid>
                     <Grid item xs={12}>
                         <p1 className='projectDescription'>This web application allows multiple friends to stream Youtube videos together</p1>
                     </Grid>
                     <Grid item xs={12}>
-                        <p1 className='projectDescription'>Node.js <FontAwesomeIcon style={nodejsColor} className='iconStyle' icon={Nodejs}/> + Express</p1>
+                        <p1 className='projectDescription'>Node.js <FontAwesomeIcon style={nodejsColor} className='iconStyle' icon={Nodejs} /> + Express</p1>
                     </Grid>
                     <Grid item xs={12}>
-                        <Link class='projectLinks' to="/projects" onClick={ () => window.open('https://youtube-streaming.herokuapp.com/')} >
+                        <Link class='projectLinks' to="/projects" onClick={() => window.open('https://youtube-streaming.herokuapp.com/')} >
                             <p2>https://youtube-streaming.herokuapp.com/</p2>
                         </Link>
                     </Grid>
                     <Grid item xs={12}>
-                        <Link class='projectLinks' to="/projects" onClick={ () => window.open('https://github.com/nicholashui8/youtube_livestream')} >
+                        <Link class='projectLinks' to="/projects" onClick={() => window.open('https://github.com/nicholashui8/youtube_livestream')} >
                             <p3>https://github.com/nicholashui8/youtube_livestream</p3>
                         </Link>
                     </Grid>
@@ -71,10 +71,10 @@ export default function Projects() {
 
 
 
-                <Grid item xs={12}  style={{marginTop: '100px',}}>
+                <Grid item xs={12} style={{ marginTop: '100px', }}>
                     <div className='imagePreview'>
-                        <Link class='projectLinks' to="/projects" onClick={ () => window.open('https://github.com/nicholashui8/food-finder')}>
-                            <img className='image-style' src={foodFinderPreview} alt="Logo"/>
+                        <Link class='projectLinks' to="/projects" onClick={() => window.open('https://github.com/nicholashui8/food-finder')}>
+                            <img className='image-style' src={foodFinderPreview} alt="Logo" />
                         </Link>
                     </div>
                 </Grid>
@@ -86,10 +86,10 @@ export default function Projects() {
                         <p1 className='projectDescription'>This web application allows the user to search for nearby food</p1>
                     </Grid>
                     <Grid item xs={12}>
-                        <p1 className='projectDescription'>React.js <FontAwesomeIcon style={reactColor} className='iconStyle' icon={react}/> + Node.js <FontAwesomeIcon  style={nodejsColor}className='iconStyle' icon={Nodejs}/> + Express</p1>
+                        <p1 className='projectDescription'>React.js <FontAwesomeIcon style={reactColor} className='iconStyle' icon={react} /> + Node.js <FontAwesomeIcon style={nodejsColor} className='iconStyle' icon={Nodejs} /> + Express</p1>
                     </Grid>
                     <Grid item xs={12}>
-                        <Link class='projectLinks' to="/projects" onClick={ () => window.open('https://github.com/nicholashui8/food-finder')} >
+                        <Link class='projectLinks' to="/projects" onClick={() => window.open('https://github.com/nicholashui8/food-finder')} >
                             https://github.com/nicholashui8/food-finder
                         </Link>
                     </Grid>
@@ -97,38 +97,38 @@ export default function Projects() {
 
 
 
-                <Grid item xs={12}  style={{marginTop: '100px',}}>
+                <Grid item xs={12} style={{ marginTop: '100px', }}>
                     <div className='imagePreview'>
                         <Link class='projectLinks' to="/projects/personal-portfolio">
-                            <img className='image-style' src={portfolioPreview} alt="Logo"/>
+                            <img className='image-style' src={portfolioPreview} alt="Logo" />
                         </Link>
                     </div>
                 </Grid>
                 <Grid container spacing={1} style={gridStyle}>
                     <Grid item xs={12}>
-                        <p1 style={projectTitle}  className='projectDescription'>Personal Portfolio</p1>
+                        <p1 style={projectTitle} className='projectDescription'>Personal Portfolio</p1>
                     </Grid>
                     <Grid item xs={12}>
                         <p1 className='projectDescription'>This is the website you're currently on!</p1>
                     </Grid>
                     <Grid item xs={12}>
-                        <p1 className='projectDescription'>React.js  <FontAwesomeIcon style={reactColor} className='iconStyle' icon={react}/></p1>
+                        <p1 className='projectDescription'>React.js  <FontAwesomeIcon style={reactColor} className='iconStyle' icon={react} /></p1>
                     </Grid>
                     <Grid item xs={12}>
-                        <Link class='projectLinks' to="/" onClick={ () => window.open('https://nicholashui8.github.io/personal-portfolio/')}>
+                        <Link class='projectLinks' to="/" onClick={() => window.open('https://nicholashui8.github.io/personal-portfolio/')}>
                             nicholashui.me
                         </Link>
                     </Grid>
                     <Grid item xs={12}>
-                        <Link class='projectLinks' to="/" onClick={ () => window.open('https://github.com/nicholashui8/personal-portfolio')}>
+                        <Link class='projectLinks' to="/" onClick={() => window.open('https://github.com/nicholashui8/personal-portfolio')}>
                             https://github.com/nicholashui8/personal-portfolio
                         </Link>
                     </Grid>
                 </Grid>
-    
+
             </Grid>
 
-            
+
         </div>
     )
 }
